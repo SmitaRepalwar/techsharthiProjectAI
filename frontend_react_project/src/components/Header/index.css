@@ -1,0 +1,63 @@
+.logo {
+    width: 100px;
+    height: 80px;
+    margin-top:10px;
+    color: #ffffff;
+  }
+
+  .header-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin-left:40px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1em;
+    font-size: 25px;
+    margin-left:15px;
+    font-weight: 34px;
+    font-family: "Gupter";
+  }
+
+  .gradient-title {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+  .subtitle {
+    font-size: 15px;
+    margin:0px 0px 13px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+  .gradient-subtitle {
+    background: linear-gradient(90deg, #2a91ff, #4557f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+  .subtitle-msg{
+    margin-left: 4px;
+    font-size: 1.0em;
+    font-size: 20px;
+    margin-left:15px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
