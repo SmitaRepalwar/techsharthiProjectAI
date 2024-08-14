@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './components/Home/index.js'
-import Pdfpage from './components/PdfPage/index.js';
+import Home from './pages/Home/index.js'
+import Chat from './pages/Chat/index.js'
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/pdfpage" element={<Pdfpage/>}/>
+        <Route path="/chats" element={<Chat/>}/>
       </Routes>
     </BrowserRouter>
   );
