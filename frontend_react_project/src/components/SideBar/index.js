@@ -9,6 +9,7 @@ import { MdOutlineCoPresent } from "react-icons/md";
 import { FaPencilAlt } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
+import { MdHomeFilled } from "react-icons/md";
 import techSharthiLogo from "../../public/techSharthiLogo.webp"
  
 import "./index.css";
@@ -22,9 +23,9 @@ const SideBar = ({ isExpanded, onChangesidebar, sideClassName }) => {
     onChangesidebar();
   };
  
-const onClickPdf = () =>{
+const onClickHome = () =>{
     setTab("tab2")
-    // navigate("/pdfpage")
+    navigate("/")
 }
  
 const onPlusClick = () =>{
@@ -52,9 +53,9 @@ const onPlusClick = () =>{
               <CiSquarePlus className="nav-item-mobile-link" />
               {isExpanded && <p className="sidebar-description">Chat</p>}
             </div>
-            <div className={`sidebar-item ${selectedTab === "tab2" && "blue-icon"}`} onClick={onClickPdf}>
-              <FaRegFilePdf className="nav-item-mobile-link" />
-              {isExpanded && <p className="sidebar-description">Chat PDF</p>}
+            <div className={`sidebar-item ${selectedTab === "tab2" && "blue-icon"}`} onClick={onClickHome}>
+              <MdHomeFilled className="nav-item-mobile-link" />
+              {isExpanded && <p className="sidebar-description">Home</p>}
             </div>
             <div className="sidebar-item">
               <MdOutlineCoPresent className="nav-item-mobile-link" />

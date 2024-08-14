@@ -28,6 +28,7 @@
     flex-direction: column;
     align-items: center;
     margin: 30px 20px 10px 30px;
+    overflow: hidden;
 }
 .body-container-with-full-sidebar{
     width: 70vw;
@@ -43,4 +44,5 @@
     justify-content: center;
     align-items: center;
     margin: 30px 20px 10px 30px;
+    overflow: hidden;
 }
