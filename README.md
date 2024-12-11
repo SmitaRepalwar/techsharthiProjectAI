@@ -1,8 +1,8 @@
 
 
-# Math Solver Application
+# EquatiAI
 
-This Math Solver Application allows users to solve mathematical problems by submitting images, PDFs, or URLs. The backend is built using Flask, and the frontend is developed using React. The application leverages Google's Gemini API to process the inputs and provide accurate solutions.
+EquatiAI allows users to solve mathematical problems by submitting images, PDFs, or URLs. The backend is built using Flask, and the frontend is developed using React. The application leverages Google's Gemini API to process the inputs and provide accurate solutions.
 
 
 
@@ -28,7 +28,7 @@ cd backend_python_project/
 2.) Create a virtual environment:
 
 ```bash
-python3 -m venv venv
+python -m venv myenv
 source venv/bin/activate
 
 ```
